@@ -5,7 +5,7 @@ import {nato} from "./lib/wordlist/5bits-nato.js"
 import {bip39} from "./lib/wordlist/11bits-bip39.js"
 
 
-export const wordlist = wordlist12Bit
+export const wordlist = wordlist12Bit.map(word => word.toLowerCase())
 
 export const {
     keyToPhrase, phraseToKey, latLngToPhrase, phraseToLatLng, codeLatLng, decode

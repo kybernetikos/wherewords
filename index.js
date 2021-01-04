@@ -1,6 +1,6 @@
 import {fromWordList} from "./lib/geocode.js"
 import {shuffle} from "./lib/shuffle.js"
-import {wordlist as wordlist12Bit} from "./lib/wordlist/12bits-oc.js"
+import {wordlist as wordlist12Bit} from "./lib/wordlist/12bits-oc-v1.1.js"
 import {nato} from "./lib/wordlist/5bits-nato.js"
 import {bip39} from "./lib/wordlist/11bits-bip39.js"
 
